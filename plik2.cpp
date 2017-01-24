@@ -3,7 +3,7 @@
 
 using namespace std;
  
-void selection_sort(int tab[],int n) //n - iloœæ elementów do posortowania
+void selection(int tab[],int n) //n - iloœæ elementów do posortowania
 {
 int mn_index; //zmienna pomocnicza przechowuj¹ca indeks komórki 
         //z minimaln¹ wartoœci¹
