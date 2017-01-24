@@ -14,7 +14,7 @@ void wstawianie(int n, int *tab)
              while(j>=0 && tab[j]>pom) 
              {
                         tab[j+1] = tab[j]; //przesuwanie elementów
-                        --j;
+                        j--;
              }
              tab[j+1] = pom; //wstawienie pom w odpowiednie miejsce
      }     
