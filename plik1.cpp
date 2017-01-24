@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
  
-void sortowanie_przez_wstawianie(int n, int *tab)
+void wstawianie(int n, int *tab)
 {
      int pom, j;
      for(int i=1; i<n; i++)
