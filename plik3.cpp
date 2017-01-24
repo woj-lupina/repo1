@@ -2,7 +2,7 @@
  
 using namespace std;
  
-class programming
+class Programming // komentarz
 {
    private:
       int variable;
